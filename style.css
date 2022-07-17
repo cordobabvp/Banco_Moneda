@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    min-height: 100vh;
+}
+#contbienvenida{
+    text-align: center;
+}
+
+#bienvenida {
+    background-color: white;
+    margin: auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px;
+    font-size: 20px;
+}
+.input {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: none;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+#ingresar {
+    background-color: rgb(53, 53, 211);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 3px;
+
+}
+.boton {
+    width: 150px;
+    padding: 5px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -5px;
+    font-size: 20px;
+
+
+}
+.contBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
